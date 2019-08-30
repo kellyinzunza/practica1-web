@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
+
+
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="javascript/style.js"></script>
+
+
+    <title>CI2T</title>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <nav class=" navbar-expand-lg navbar-dark">
+            <!--  navbar  -->
+            <div class="container">
+                <!-- LOGO -->
+                <!--
+                    <a href="#" class="navbar-brand">CI2T</a>
+               -->
+
+                <!-- MENU BUTTON-->
+                <button class="navbar-toggler " type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <!-- MENU ITEMS -->
+            <div class="collapse navbar-collapse sticky" id="navbarSupportedContent">
+                <div class="container img-logo barra">
+                    <a href="/">
+                        <img src="img/logo_final.svg" class="img-logo " alt="Logotipo">
+                    </a>
+                    <ul class="navbar-nav ml-auto  prueba">
+                        <li class="nav-item active">
+                            <!--<a href="#" class="ci2t navbar-brand">CI2T</a> -->
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Conferences</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link">Call for Papers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Accomodation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Commite</a>
+                        </li>
+
+
+                        <li class="nav-item pestana-login ">
+                            <a href="#" class="nav-link ">Login</a>
+                        </li>
+                        <li class="nav-item pestana-signup border-redius">
+                            <a href="#" class="nav-link sign-up">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <!--row-->
+                <!--col-sm-6-->
+                <div class=" col-sm-6">
+                    <h3><span>VI </span>CONGRESO INTERNACIONAL DE INVESTIGACIÓN TIJUANA</h3>
+                    <p class="box-p">
+                        En el 2020, el 6to Congreso Internacional de Investigación Tijuana (CI2T) se llevará a cabo. El
+                        CI2T tomará lugar dentro de las instalaciones de la Universidad Autónoma de Baja California en
+                        Tijuana, organizado por la Facultad de Ciencias Químicas e Ingeniería, como una plataforma de
+                        diseminación bilingüe (Inglés/Español) para profesores, investigadores, estudiantes, graduados,
+                        y profesionistas, donde trabajos teóricos y/o prácticos serán presentados, además de promover
+                        nexos entre expertos y la industria.
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="flecha">
+                <img src="img/arrows.png" alt="Icono Flechas">
+            </div> -->
+            <div class="flecha">
+                <div class="downArrow bounce">
+                    <img width="35" height="35" alt=""
+                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4="
+                        )>
+                </div>
+
+
+
+            </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i
+                                    class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                </hr>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p><u><a href="">Copyright &copy 2019 by ci2tijuana.org</a>
+                            <p class="h6">All right Reversed.<a class="text-green ml-2" href="#" target="_blank"></a>
+                            </p>
+                </div>
+                </hr>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+
+</body>
+
+</html>
